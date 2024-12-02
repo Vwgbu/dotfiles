@@ -1,0 +1,14 @@
+2024/11/27-19:09:10.805 1d78 Reusing MANIFEST /home/labib/.config/BraveSoftware/Brave-Browser/Default/WebStorage/9/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/11/27-19:09:10.839 1d78 Recovering log #4
+2024/11/27-19:09:10.839 1d78 Reusing old log /home/labib/.config/BraveSoftware/Brave-Browser/Default/WebStorage/9/IndexedDB/indexeddb.leveldb/000004.log 
+2024/11/27-19:09:12.142 1d77 Level-0 table #8: started
+2024/11/27-19:09:12.287 1d77 Level-0 table #8: 925 bytes OK
+2024/11/27-19:09:12.661 1d77 Delete type=0 #4
+2024/11/27-19:09:12.662 1d76 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/27-19:09:12.662 1d76 Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xec\xd4\xdb6yB\x00\x03\x00\x00\x00\x00\x00\x00\x18@' @ 549 : 0
+2024/11/27-19:09:12.662 1d76 Compacting 1@1 + 1@2 files
+2024/11/27-19:09:12.810 1d76 Generated table #9@1: 59 keys, 11427 bytes
+2024/11/27-19:09:12.810 1d76 Compacted 1@1 + 1@2 files => 11427 bytes
+2024/11/27-19:09:13.050 1d76 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/27-19:09:13.050 1d76 Delete type=2 #8
+2024/11/27-19:09:13.051 1d76 Manual compaction at level-1 from '\x00\x03\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xec\xd4\xdb6yB\x00\x03\x00\x00\x00\x00\x00\x00\x18@' @ 549 : 0 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

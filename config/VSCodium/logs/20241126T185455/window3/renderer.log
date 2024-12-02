@@ -1,0 +1,28 @@
+2024-11-26 18:59:39.110 [info] Started local extension host with pid 47069.
+2024-11-26 18:59:42.000 [info] [perf] Render performance baseline is 60ms
+2024-11-26 19:01:10.556 [error] Error: Unable to read file '/var/www/html/index.html' (NoPermissions (FileSystemError): An unknown error occurred. Please consult the log for more details.)
+    at Pnt.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:96545)
+    at Object.error (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:96706)
+    at Object.onError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:4411)
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:3583
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1809
+    at Array.forEach (<anonymous>)
+    at g_i.emitError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1798)
+    at g_i.error (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1489)
+    at vZ.value (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:109702)
+    at E._deliver (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:30:923)
+2024-11-26 19:01:10.677 [info] Started local extension host with pid 47545.
+2024-11-26 19:01:12.209 [error] Error: Unable to read file '/var/www/html/index.html' (NoPermissions (FileSystemError): An unknown error occurred. Please consult the log for more details.)
+    at Pnt.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:96545)
+    at Object.error (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:96706)
+    at Object.onError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:4411)
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:3583
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1809
+    at Array.forEach (<anonymous>)
+    at g_i.emitError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1798)
+    at g_i.error (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1489)
+    at vZ.value (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3088:109702)
+    at E._deliver (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:30:923)
+2024-11-26 19:01:12.237 [error] [File Watcher] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /var/www/html)
+2024-11-26 19:01:12.238 [error] [File Watcher (universal)] Bad file descriptor
+2024-11-26 19:01:13.839 [info] [perf] Render performance baseline is 62ms

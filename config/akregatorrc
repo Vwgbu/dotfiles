@@ -1,0 +1,32 @@
+[$Version]
+update_info=fonts_akregator.upd:Plasma_Fonts_Akregator
+
+[Appearance]
+Fixed Font=monospace
+Sans Serif Font=Sans
+Serif Font=Sans
+Standard Font=Sans
+
+[General]
+ArticleListFeedHeaders=
+ArticleListGroupHeaders=
+SubscriptionListHeaders=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAADBgAAAAIAAAABAAAAKQAAAAIAAABkAAAA0AAAAAMBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAADQAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAGQ=
+
+[HTML Settings]
+Fonts=Sans,monospace,Sans,Sans,0
+MediumFontSize=10
+
+[MainWindow]
+1366x768 screen: Height=480
+1366x768 screen: Width=821
+1366x768 screen: XPosition=5
+1366x768 screen: YPosition=56
+State=AAAA/wAAAAD9AAAAAAAAAzUAAAGLAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[Migratekde4]
+Version=1
+
+[View]
+Splitter 1 Sizes=210,607

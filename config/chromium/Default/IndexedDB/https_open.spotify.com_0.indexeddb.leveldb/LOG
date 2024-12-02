@@ -1,0 +1,24 @@
+2024/11/20-05:02:59.801 117a6 Reusing MANIFEST /home/labib/.config/chromium/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/20-05:02:59.802 117a6 Recovering log #3
+2024/11/20-05:02:59.807 117a6 Reusing old log /home/labib/.config/chromium/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000003.log 
+2024/11/20-05:03:30.155 117a4 Level-0 table #5: started
+2024/11/20-05:03:30.443 117a4 Level-0 table #5: 2814312 bytes OK
+2024/11/20-05:03:30.599 117a4 Delete type=0 #3
+2024/11/20-05:03:45.773 117a5 Level-0 table #7: started
+2024/11/20-05:03:45.950 117a5 Level-0 table #7: 4229360 bytes OK
+2024/11/20-05:03:45.998 117a5 Delete type=0 #4
+2024/11/20-05:03:46.481 117a4 Compacting 1@1 + 1@2 files
+2024/11/20-05:03:46.574 117a4 Generated table #8@1: 272 keys, 103594 bytes
+2024/11/20-05:03:46.574 117a4 Compacted 1@1 + 1@2 files => 103594 bytes
+2024/11/20-05:03:46.619 117a4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/20-05:03:46.620 117a4 Delete type=2 #5
+2024/11/20-05:03:46.620 117a4 Delete type=2 #7
+2024/11/20-05:03:56.209 117a5 Level-0 table #10: started
+2024/11/20-05:03:56.430 117a5 Level-0 table #10: 4122220 bytes OK
+2024/11/20-05:03:56.476 117a5 Delete type=0 #6
+2024/11/20-05:04:41.959 117a5 Compacting 1@1 + 1@2 files
+2024/11/20-05:04:42.027 117a5 Generated table #11@1: 436 keys, 120817 bytes
+2024/11/20-05:04:42.027 117a5 Compacted 1@1 + 1@2 files => 120817 bytes
+2024/11/20-05:04:42.072 117a5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/20-05:04:42.073 117a5 Delete type=2 #8
+2024/11/20-05:04:42.073 117a5 Delete type=2 #10

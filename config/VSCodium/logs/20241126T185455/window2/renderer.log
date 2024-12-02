@@ -1,0 +1,46 @@
+2024-11-26 18:56:47.313 [info] Started local extension host with pid 46690.
+2024-11-26 18:56:50.714 [info] [perf] Render performance baseline is 58ms
+2024-11-26 18:57:20.418 [info] Started local extension host with pid 46886.
+2024-11-26 18:57:24.305 [info] [perf] Render performance baseline is 122ms
+2024-11-26 18:57:54.317 [error] [text file model] handleSaveError(8) - exit - resulted in a save error: Error: Unable to write file '/var/www/html/index.html' (EntryWriteLocked (FileSystemError): Error: EACCES: permission denied, open '/var/www/html/index.html') file:///var/www/html/index.html
+2024-11-26 18:58:05.318 [error] [text file model] handleSaveError(8) - exit - resulted in a save error: Error: Unable to write file '/var/www/html/index.html' (EntryWriteLocked (FileSystemError): Error: EACCES: permission denied, open '/var/www/html/index.html') file:///var/www/html/index.html
+2024-11-26 18:58:23.377 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)
+2024-11-26 18:58:23.400 [error] Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo': NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)
+2024-11-26 18:58:27.130 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)
+2024-11-26 18:58:27.132 [error] Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo': NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)
+2024-11-26 18:58:28.324 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)
+2024-11-26 18:58:28.326 [error] Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo': NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)
+2024-11-26 18:58:29.359 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)
+2024-11-26 18:58:29.364 [error] Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo': NoPermissions (FileSystemError): Error: EACCES: permission denied, mkdir '/var/www/html/h5ai/_h5ai/yo'
+    at S2.create (file:///usr/share/codium/resources/app/out/main.js:38:32164)
+    at zi (file:///usr/share/codium/resources/app/out/main.js:38:29458)
+    at xc.toFileSystemProviderError (file:///usr/share/codium/resources/app/out/main.js:49:28713)
+    at xc.mkdir (file:///usr/share/codium/resources/app/out/main.js:49:26048)

@@ -1,0 +1,24 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10c5d36269000173218598000002432980004
+clientId2=10c5d36269000173218598000002432980006
+clientId3=10c5d36269000173218615300002432980009
+count=3
+discardCommand3[$e]=rm,$HOME/.config/session/dolphin_10c5d36269000173218615300002432980009_1732189489_909215
+program1=/usr/bin/kalendarac
+program2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program3=/usr/bin/dolphin
+restartCommand1=/usr/bin/kalendarac,-session,10c5d36269000173218598000002432980004_1732189489_861195
+restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,10c5d36269000173218598000002432980006_1732189489_861628
+restartCommand3=/usr/bin/dolphin,-session,10c5d36269000173218615300002432980009_1732189489_909215
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=labib
+userId2=labib
+userId3=labib

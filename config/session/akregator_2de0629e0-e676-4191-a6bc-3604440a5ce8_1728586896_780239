@@ -1,0 +1,17 @@
+[1]
+Children=
+docked=false
+searchCombo=0
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+1366x768 screen: Height=480
+1366x768 screen: Width=821
+1366x768 screen: XPosition=0
+1366x768 screen: YPosition=0
+ClassName=Akregator::MainWindow
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAzUAAAGLAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+eDP-1=eDP-1

@@ -1,2 +1,0 @@
-2024-11-26 19:01:12.259 [error] [File Watcher] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /var/www/html)
-2024-11-26 19:01:12.259 [error] [File Watcher (universal)] Bad file descriptor

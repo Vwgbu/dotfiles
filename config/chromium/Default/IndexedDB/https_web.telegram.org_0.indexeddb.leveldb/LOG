@@ -1,6 +1,0 @@
-2024/11/26-18:11:49.578 a098 Creating DB /home/labib/.config/chromium/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb since it was missing.
-2024/11/26-18:11:50.055 a098 Reusing MANIFEST /home/labib/.config/chromium/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/26-18:54:49.667 a098 Level-0 table #5: started
-2024/11/26-18:54:50.603 a098 Level-0 table #5: 486244 bytes OK
-2024/11/26-18:54:51.060 a098 Delete type=0 #3
-2024/11/26-18:54:51.135 a098 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

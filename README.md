@@ -1,2 +1,2 @@
 # dotfiles
-Dotfiles for **Workstation**
+Dotfiles for **Debian**

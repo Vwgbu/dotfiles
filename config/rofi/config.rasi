@@ -1,61 +1,164 @@
-@import "~/.cache/wal/colors-rofi.rasi"
+// config owner is u/DEVELOPER0x31
 
-* {
-	font: "FiraCode Nerd Font Mono Regular 12";
+@import "./mytheme.rasi"
+
+configuration{
+    modi: "run,drun,window";
+    lines: 10;
+    font: "Maple Mono 9";
+    show-icons: false;
+//    icon-theme: "Papirus-dark";
+    terminal: "alacritty";
+    drun-display-format: "{name}";
+    location: 0;
+    disable-history: true;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: "   window";
+    display-Network: " 󰤨  Network";
+    sidebar-mode: false;
 }
 
-configuration {
-	show-icons: true;
+* {
+    width: 30%;
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
 }
 
 window {
-	location: center;
-	width: 800px;
-	height: 500px;
-	padding: 50px;
-	border-radius: 7px;
-	border: 2px solid;
+    height: 350px;
+    border: 5px;
+    border-color: @background;
+    background-color: @background;
 }
 
 mainbox {
-	enabled: true;
-	spacing: 40px;
-	padding: 0px;
-	children: ["inputbar", "listview"];
+    background-color: @background;
 }
 
 inputbar {
-	border: 1px solid;
-	border-radius: 7px;
+	children: 			[ prompt, entry ];
+	background-image:               url("./bg.jpg", width);
+	expand:                         false;
+	padding:                        60px 60px 60px 60px;
+    background-color: transparent;
+    border-radius: 10px;
+}
 
-	padding: 10px;
-	margin: 0 150px;
+prompt {
+    background-color: @selected-active-foreground;
+    padding: 6px;
+    text-color: @background;
+    border-radius: 10px;
+    margin: 20px 0px 0px 20px;
+}
 
-	children: ["entry"];
+textbox-prompt-colon {
+    expand: true;
+    str: "";
 }
 
 entry {
-	placeholder: "Search";
+    padding: 6px;
+    margin: 20px 0px 0px 10px;
+    text-color: @normal-foreground;
+    background-color: @background;
+    placeholder:"Search";
+    border-radius: 10px;
 }
 
 listview {
-	columns: 2;
-	border: 0px solid;
-	spacing: 10px;
-	fixed-columns: true;
-	layout: vertical;
-	scrollbar: false;
-	dynamic: true;
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+    margin: 10px 0px 0px 20px;
+    columns: 3;
+    scrollbar: false;
+    background-color: @background;
 }
 
 element {
-	spacing: 10px;
-	padding: 10px;
-	border: 0px solid;
-	border-radius: 7px;
-	children: ["element-icon", "element-text"];
+    border-radius: 10px;
+    padding: 5px;
+    background-color: @background;
+    text-color: @normal-foreground;
 }
 
-element selected.normal {
-	border: 1px solid;
+element-icon {
+    size: 20px;
+}
+
+
+element normal normal {
+    background-color: @background;
+    color: @normal-foreground;
+}
+
+element normal urgent {
+    background-color: @background;
+    color: @normal-foreground;
+}
+
+element normal active {
+    background-color: @background;
+    color: @normal-foreground;
+}
+
+element alternate normal {
+    background-color: @background;
+	color: @normal-foreground;
+}
+
+element alternate urgent {
+    background-color: @background;
+	color: @normal-foreground;
+}
+
+element alternate active {
+    background-color: @background;
+    color: @normal-foreground;
+}
+
+element selected normal {
+    border-radius: 10px;
+    background-color:  @selected-active-foreground ;
+    text-color: @background  ;
+}
+
+element selected urgent {
+    border-radius: 10px;
+    background-color:  @selected-active-foreground ;
+    text-color: @background  ;
+}
+
+element selected active {
+    border-radius: 10px;
+    background-color:  @selected-active-foreground ;
+    text-color: @background  ;
+}
+
+mode-switcher {
+    spacing: 0;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: @background;
+    text-color: @selected-normal-foreground;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+button selected {
+  border-radius: 10px;
+  background-color: @background;
+  text-color: @selected-active-foreground;
+}
+
+scrollbar {
+    background-color : @background;
 }
